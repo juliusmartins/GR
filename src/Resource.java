@@ -9,6 +9,33 @@ public class Resource {
 	{
 		return this.identity;
 	}
+	private String title;
+	public void settitle(String title)
+	{
+		this.title=title;
+	}
+	public String gettitle()
+	{
+		return this.title;
+	}
+	private String description;
+	public void setdescription(String description)
+	{
+		this.description=description;
+	}
+	public String getdescription()
+	{
+		return this.description;
+	}
+	private String material;
+	public void setmaterial(String material)
+	{
+		this.material=material;
+	}
+	public String getmaterial()
+	{
+		return this.material;
+	}
 	private String responsible;
 	public void setresponsible(String responsible)
 	{

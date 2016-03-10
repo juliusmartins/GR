@@ -5,7 +5,6 @@ public class Researcher extends Person{
 	{
 		return this.responsibility;
 	}
-	boolean occupied=false;
 	public String getocupation()
 	{
 		return "Researcher";
